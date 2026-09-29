@@ -1,0 +1,71 @@
+{
+  "name": "Rick's SideStore Source",
+  "identifier": "io.github.rickhcchan.sidestore-source",
+  "sourceURL": "https://raw.githubusercontent.com/rickhcchan/sidestore-source/main/apps.json",
+  "website": "https://github.com/rickhcchan/sidestore-source",
+  "subtitle": "Original upstream IPA releases",
+  "description": "Automatically tracks selected public GitHub releases. IPA downloads go directly to their original publishers.",
+  "apps": [
+    {
+      "name": "YTKACE",
+      "developerName": "itzzace and contributors",
+      "localizedDescription": "YouTube with the YTKACE tweak. Modern iOS variant only. Downloads are the unmodified IPA published by itzzace/ytkace. Tweak-only releases may need a manual installation even when the app version is unchanged; see this source's news and release notes.",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "iconURL": "https://raw.githubusercontent.com/rickhcchan/sidestore-source/main/icons/ytkace-1075b78b6bbe62c4.png",
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.coremedia.allow-alternate-video-decoder-selection",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.device-information.user-assigned-device-name",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.request-data",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.usernotifications.time-sensitive",
+          "com.apple.security.application-groups",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSLocationWhenInUseUsageDescription": "This enables local content discovery, improved recommendations, and enhanced search results.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites."
+        }
+      },
+      "tintColor": "FF0033",
+      "versions": [
+        {
+          "version": "21.39.4",
+          "buildVersion": "21.39.4",
+          "minOSVersion": "17.0",
+          "date": "2026-09-28T19:47:40Z",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
+          "size": 137241058,
+          "sha256": "254873377463235d5145cf0ec97ea680dfd2bcd613b7935d3d6b9f203b7ed638",
+          "localizedDescription": "YTKACE v1.1.1\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.39.4\n• Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups\n• Liquid Glass settings page with a toggle for each part\n• Selected Tab Color for the tab text or the text and icon\n• Added HLS mode in Playback Fix\n• Added 5x speed in the speed menu\n• Improved native share sheet\n\nFixed:\n• Multiple scrubber dots on feed videos with a custom scrubber\n• Direct downloads using an outdated client\n\nYouTube 21.39.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.1_YouTube_21.39.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa` for iOS 16\n\n\nUpstream release: https://github.com/itzzace/ytkace/releases/tag/v1.1.1"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "identifier": "ytkace-release-398570922-asset-596261605",
+      "title": "YTKACE v1.1.1",
+      "caption": "Upstream release available. App 21.39.4 (build 21.39.4). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
+      "date": "2026-09-28T19:47:40Z",
+      "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.1",
+      "appID": "com.google.ios.youtube",
+      "notify": true
+    }
+  ]
+}

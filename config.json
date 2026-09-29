@@ -1,0 +1,23 @@
+{
+  "source": {
+    "name": "Rick's SideStore Source",
+    "identifier": "io.github.rickhcchan.sidestore-source",
+    "sourceURL": "https://raw.githubusercontent.com/rickhcchan/sidestore-source/main/apps.json",
+    "website": "https://github.com/rickhcchan/sidestore-source",
+    "subtitle": "Original upstream IPA releases",
+    "description": "Automatically tracks selected public GitHub releases. IPA downloads go directly to their original publishers."
+  },
+  "projects": [
+    {
+      "id": "ytkace",
+      "repository": "itzzace/ytkace",
+      "name": "YTKACE",
+      "developerName": "itzzace and contributors",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "localizedDescription": "YouTube with the YTKACE tweak. Modern iOS variant only. Downloads are the unmodified IPA published by itzzace/ytkace. Tweak-only releases may need a manual installation even when the app version is unchanged; see this source's news and release notes.",
+      "assetPattern": "YTKACE_[0-9]+(?:\\.[0-9]+)*_YouTube_[0-9]+(?:\\.[0-9]+)*\\.ipa",
+      "excludePattern": "(?i)(?:ios[ _-]*16|legacy)",
+      "tintColor": "FF0033"
+    }
+  ]
+}
