@@ -55,6 +55,68 @@
           "localizedDescription": "YTKACE v1.1.1\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.39.4\n• Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups\n• Liquid Glass settings page with a toggle for each part\n• Selected Tab Color for the tab text or the text and icon\n• Added HLS mode in Playback Fix\n• Added 5x speed in the speed menu\n• Improved native share sheet\n\nFixed:\n• Multiple scrubber dots on feed videos with a custom scrubber\n• Direct downloads using an outdated client\n\nYouTube 21.39.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.1_YouTube_21.39.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa` for iOS 16\n\n\nUpstream release: https://github.com/itzzace/ytkace/releases/tag/v1.1.1"
         }
       ]
+    },
+    {
+      "name": "EeveeSpotify",
+      "developerName": "jaydenjcpy, faroukbmiled, estrogencat and contributors",
+      "localizedDescription": "Spotify with EeveeSpotifyReincarnated, prebuilt by estrogencat. Regular Liquid Glass IPA for signing with SideStore; excludes the patched variant. Downloads go directly to the original upstream release. Tweak-only releases may need a manual installation even when the app version is unchanged; see this source's news and release notes.",
+      "bundleIdentifier": "com.spotify.client",
+      "iconURL": "https://raw.githubusercontent.com/SideloadLabs/EeveeSpotifyReincarnated/9a482a83af8d47e53e4746a17a7767599270d1d7/Assets/AppIcon/sources/EeveeCustom.png",
+      "appPermissions": {
+        "entitlements": [
+          "application-identifier",
+          "aps-environment",
+          "com.apple.developer.applesignin",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.declared-age-range",
+          "com.apple.developer.game-center",
+          "com.apple.developer.group-session",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.healthkit.access",
+          "com.apple.developer.networking.multicast",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.storekit.custom-purchase-link.allowed-regions",
+          "com.apple.developer.team-identifier",
+          "com.apple.developer.ubiquity-kvstore-identifier",
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "keychain-access-groups"
+        ],
+        "privacy": {
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSCameraUsageDescription": "This lets you use your camera to scan or upload images.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSLocationWhenInUseUsageDescription": "Your location is used to improve your recommendations and experience on Spotify.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+        }
+      },
+      "tintColor": "1DB954",
+      "versions": [
+        {
+          "version": "9.1.84",
+          "buildVersion": "918402223",
+          "minOSVersion": "15.0",
+          "date": "2026-09-23T18:23:50Z",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/6.6.8-LG-2026-09-23-00-00-00/EeveeSpotify-9.1.84-ESR-6.6.8-LG.ipa",
+          "size": 135345693,
+          "sha256": "86d6d728fd600d2a8b7e57074ac9ee37283c87afb481c3e689f5dc29d690c861",
+          "localizedDescription": "EeveeSpotify 6.6.8-LG-2026-09-23-00-00-00\n\nNo upstream release notes supplied.\n\nUpstream release: https://github.com/estrogencat/EeveeIPA/releases/tag/6.6.8-LG-2026-09-23-00-00-00"
+        }
+      ]
     }
   ],
   "news": [
@@ -65,6 +127,15 @@
       "date": "2026-09-28T19:47:40Z",
       "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.1",
       "appID": "com.google.ios.youtube",
+      "notify": true
+    },
+    {
+      "identifier": "eeveespotify-release-394940431-asset-584354262",
+      "title": "EeveeSpotify 6.6.8-LG-2026-09-23-00-00-00",
+      "caption": "Upstream release available. App 9.1.84 (build 918402223). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
+      "date": "2026-09-23T18:23:50Z",
+      "url": "https://github.com/estrogencat/EeveeIPA/releases/tag/6.6.8-LG-2026-09-23-00-00-00",
+      "appID": "com.spotify.client",
       "notify": true
     }
   ]

@@ -13,6 +13,8 @@ from scripts import update as u
 
 
 CONFIG = json.loads((u.ROOT / "config.json").read_text())
+# These synthetic releases and IPA fixtures describe YTKACE only.
+CONFIG["projects"] = [p for p in CONFIG["projects"] if p["id"] == "ytkace"]
 PROJECT = CONFIG["projects"][0]
 # Names observed in the actual v1.1.1 release on 2026-09-29.
 NAMES = ["com.itzzace.ytkace_1.1.1_roothide.deb", "com.itzzace.ytkace_1.1.1_rootless.deb",

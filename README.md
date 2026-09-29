@@ -1,6 +1,6 @@
 # Rick's SideStore source
 
-Automatically tracks the latest stable [YTKACE release](https://github.com/itzzace/ytkace/releases/latest), selecting the modern iOS IPA. Downloads link directly to upstream GitHub assets. This repository never rehosts, modifies, decrypts, or signs an IPA.
+Automatically tracks the latest stable [YTKACE release](https://github.com/itzzace/ytkace/releases/latest), selecting the modern iOS IPA, and [EeveeSpotify release](https://github.com/estrogencat/EeveeIPA/releases/latest), selecting the regular Liquid Glass IPA. Downloads link directly to upstream GitHub assets. This repository never rehosts, modifies, decrypts, or signs an IPA.
 
 ## Add the source
 
@@ -10,7 +10,7 @@ In SideStore, open **Sources → +** (under Browse in some versions), then paste
 https://raw.githubusercontent.com/rickhcchan/sidestore-source/main/apps.json
 ```
 
-The same URL works as an AltStore Classic source. The repository must remain public; GitHub Pages is unnecessary. Keep this URL and the configured source identifier stable. The app identity is its real IPA bundle identifier, currently `com.google.ios.youtube`; it is not a separate identity from other YouTube variants.
+The same URL works as an AltStore Classic source. The repository must remain public; GitHub Pages is unnecessary. Keep this URL and the configured source identifier stable. App identities are their real IPA bundle identifiers: `com.google.ios.youtube` for YTKACE and `com.spotify.client` for EeveeSpotify. They are not separate identities from other variants of those apps.
 
 **SideStore does not manage apps installed inside LiveContainer.** Adding this source does not update those guest apps: download the upstream IPA and import/update it through LiveContainer. Its [documentation explains the guest-app model](https://github.com/LiveContainer/LiveContainer#readme).
 
@@ -36,13 +36,15 @@ An optional `GITHUB_TOKEN` environment variable increases API rate limits. Witho
 
 The updater uses GitHub's `/releases/latest` endpoint and checks draft/prerelease flags. It fetches every asset page. Observed v1.1.1 assets include `YTKACE_1.1.1_YouTube_21.39.4.ipa`, the separate `YouTube_iOS16_21.33.6.ipa`, and two `.deb` packages. Configuration requires exactly one modern-name match, excludes legacy/iOS16, and accepts only `.ipa`. Missing, renamed, or ambiguous assets fail; it never silently falls back to an older release.
 
+For EeveeSpotify, the initial release is `6.6.8-LG-2026-09-23-00-00-00` (Spotify 9.1.84). Selection requires `EeveeSpotify-<app version>-ESR-<tweak version>-LG.ipa` and excludes `-patched.ipa`. The [maintainer's installation notes](https://github.com/estrogencat/EeveeIPA#installation) support the regular variant with SideStore; the patched variant requires certificate-based signing tools or TrollStore. This source follows future latest stable releases with the same regular Liquid Glass naming, rather than pinning the initial tag. If a future latest release lacks that variant, the sync fails and keeps the existing catalogue. Its icon uses a commit-pinned upstream EeveeSpotify PNG because this IPA has no web-compatible declared primary icon.
+
 The main `Payload/*.app/Info.plist` supplies bundle ID, version, build and minimum iOS. The download size and upstream SHA-256 (when available) are checked. The catalogue includes the computed SHA-256, upstream publication date and notes, the declared primary icon, and permissions read from the main app and extensions. Unsupported executable/DER-only entitlement formats fail explicitly. All projects must pass before the catalogue is atomically replaced.
 
 The shared format uses `apps[].versions`, `buildVersion`, `minOSVersion`, `appPermissions`, and `news`, following [AltStore's source documentation](https://faq.altstore.io/developers/make-a-source) and SideStore's [Source](https://sidestore.io/sidestore-source-types/interfaces/Source.html), [App](https://sidestore.io/sidestore-source-types/interfaces/App.html) and [Version](https://sidestore.io/sidestore-source-types/interfaces/Version.html) documentation. It publishes only the current release, with no historical/iOS16 fallback. Icons are copied from the original IPA into content-addressed PNG files; the IPA itself is never published here.
 
 ## Update detection and troubleshooting
 
-The YTKACE tag describes the tweak, not necessarily YouTube's internal version. Never replace IPA version/build values with the tag or a timestamp.
+The YTKACE and EeveeSpotify tags describe their tweaks, not necessarily the apps' internal versions. Never replace IPA version/build values with the tag or a timestamp.
 
 [AltStore detects differing app versions/builds, not release dates](https://faq.altstore.io/developers/updating-apps). [SideStore 0.6.4's `hasUpdate`](https://github.com/SideStore/SideStore/blob/0.6.4/AltStore/Core/Model/InstalledApp.swift) compares semantic app versions for normal numeric versions; a separate build-only change does **not** trigger that path. It falls back to version/build matching for unparseable versions. Newer client behavior can differ.
 

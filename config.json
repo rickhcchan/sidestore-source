@@ -18,6 +18,18 @@
       "assetPattern": "YTKACE_[0-9]+(?:\\.[0-9]+)*_YouTube_[0-9]+(?:\\.[0-9]+)*\\.ipa",
       "excludePattern": "(?i)(?:ios[ _-]*16|legacy)",
       "tintColor": "FF0033"
+    },
+    {
+      "id": "eeveespotify",
+      "repository": "estrogencat/EeveeIPA",
+      "name": "EeveeSpotify",
+      "developerName": "jaydenjcpy, faroukbmiled, estrogencat and contributors",
+      "bundleIdentifier": "com.spotify.client",
+      "localizedDescription": "Spotify with EeveeSpotifyReincarnated, prebuilt by estrogencat. Regular Liquid Glass IPA for signing with SideStore; excludes the patched variant. Downloads go directly to the original upstream release. Tweak-only releases may need a manual installation even when the app version is unchanged; see this source's news and release notes.",
+      "assetPattern": "EeveeSpotify-[0-9]+(?:\\.[0-9]+)*-ESR-[0-9]+(?:\\.[0-9]+)*-LG\\.ipa",
+      "excludePattern": "(?i)patched",
+      "iconURL": "https://raw.githubusercontent.com/SideloadLabs/EeveeSpotifyReincarnated/9a482a83af8d47e53e4746a17a7767599270d1d7/Assets/AppIcon/sources/EeveeCustom.png",
+      "tintColor": "1DB954"
     }
   ]
 }
