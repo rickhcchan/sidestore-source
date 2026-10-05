@@ -45,14 +45,14 @@
       "tintColor": "FF0033",
       "versions": [
         {
-          "version": "21.39.4",
-          "buildVersion": "21.39.4",
+          "version": "21.40.5",
+          "buildVersion": "21.40.5",
           "minOSVersion": "17.0",
-          "date": "2026-09-28T19:47:40Z",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.1/YTKACE_1.1.1_YouTube_21.39.4.ipa",
-          "size": 137241058,
-          "sha256": "254873377463235d5145cf0ec97ea680dfd2bcd613b7935d3d6b9f203b7ed638",
-          "localizedDescription": "YTKACE v1.1.1\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.39.4\n• Liquid Glass on iOS 26 for the tab bar, top bar buttons, menus, sheets, player buttons and YTKACE popups\n• Liquid Glass settings page with a toggle for each part\n• Selected Tab Color for the tab text or the text and icon\n• Added HLS mode in Playback Fix\n• Added 5x speed in the speed menu\n• Improved native share sheet\n\nFixed:\n• Multiple scrubber dots on feed videos with a custom scrubber\n• Direct downloads using an outdated client\n\nYouTube 21.39.4 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.1_YouTube_21.39.4.ipa` for iOS 17 and newer\n• `YTKACE_1.1.1_YouTube_iOS16_21.33.6.ipa` for iOS 16\n\n\nUpstream release: https://github.com/itzzace/ytkace/releases/tag/v1.1.1"
+          "date": "2026-10-04T19:13:13Z",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.2/YTKACE_1.1.2_YouTube_21.40.5.ipa",
+          "size": 137298992,
+          "sha256": "7f68e0f56acd5d18155c210be1c7d7dfd9d65529ea47466c7eae9b40d5ae688e",
+          "localizedDescription": "YTKACE v1.1.2\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.40.5\n• Redesigned the download tab to look more like YouTube, with an All tab and your active downloads shown at the top\n• Smaller download popup that you can swipe away, and failed downloads stay so you can retry them\n• Playlist downloads now get the whole playlist, including private playlists and Liked videos\n• Liquid Glass tab bar is see-through while scrolling Shorts\n• Added Frosted Tab Bar option (Default, On, Off)\n• Added Normal Home Layout for the Home redesign some accounts get\n• Added Remove Horizontal Shelves\n• Added Hold to Copy Text for community posts and comments\n• Added Play Shorts Once\n• Added Two-Finger Tap to Pause\n• Added Extra Dim\n• Added Share at Current Time\n• Added Lock Screen Skip\n• Added Remove Suggestion Pill for Shorts\n• SponsorBlock skip popup now fades in and out\n\nFixed:\n• Shorts download button, Fullscreen and pinch to fullscreen on the new Shorts UI\n• Captions On picking the wrong language\n• App opening in Shorts when a different start tab is set\n• White or black bar behind the Liquid Glass tab bar\n• Share sheet position on iPad\n\nYouTube 21.40.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.2_YouTube_21.40.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa` for iOS 16\n\n\nUpstream release: https://github.com/itzzace/ytkace/releases/tag/v1.1.2"
         }
       ]
     },
@@ -107,35 +107,35 @@
       "tintColor": "1DB954",
       "versions": [
         {
-          "version": "9.1.84",
-          "buildVersion": "918402223",
+          "version": "9.1.78",
+          "buildVersion": "917802214",
           "minOSVersion": "15.0",
-          "date": "2026-09-23T18:23:50Z",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/6.6.8-LG-2026-09-23-00-00-00/EeveeSpotify-9.1.84-ESR-6.6.8-LG.ipa",
-          "size": 135345693,
-          "sha256": "86d6d728fd600d2a8b7e57074ac9ee37283c87afb481c3e689f5dc29d690c861",
-          "localizedDescription": "EeveeSpotify 6.6.8-LG-2026-09-23-00-00-00\n\nNo upstream release notes supplied.\n\nUpstream release: https://github.com/estrogencat/EeveeIPA/releases/tag/6.6.8-LG-2026-09-23-00-00-00"
+          "date": "2026-10-05T05:10:28Z",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.0.0-2026-10-05-06-08-00/EeveeSpotify-9.1.86-ESR-7.0.0-LG.ipa",
+          "size": 133618708,
+          "sha256": "1972ddbfaddc2adda53c735b66b889e327188f82bef9d9af7558c8da4a62af67",
+          "localizedDescription": "EeveeSpotify 7.0.0-2026-10-05-06-08-00\n\nnot finished 7.0.0, very early in dev \r\nspoti.pw 0.23.0 beta (9.1.78, listed at 9.1.86 so repo wont put it under the older releases)\n\nUpstream release: https://github.com/estrogencat/EeveeIPA/releases/tag/7.0.0-2026-10-05-06-08-00"
         }
       ]
     }
   ],
   "news": [
     {
-      "identifier": "ytkace-release-398570922-asset-596261605",
-      "title": "YTKACE v1.1.1",
-      "caption": "Upstream release available. App 21.39.4 (build 21.39.4). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
-      "date": "2026-09-28T19:47:40Z",
-      "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.1",
-      "appID": "com.google.ios.youtube",
+      "identifier": "eeveespotify-release-403382484-asset-611564341",
+      "title": "EeveeSpotify 7.0.0-2026-10-05-06-08-00",
+      "caption": "Upstream release available. App 9.1.78 (build 917802214). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
+      "date": "2026-10-05T05:10:28Z",
+      "url": "https://github.com/estrogencat/EeveeIPA/releases/tag/7.0.0-2026-10-05-06-08-00",
+      "appID": "com.spotify.client",
       "notify": true
     },
     {
-      "identifier": "eeveespotify-release-394940431-asset-584354262",
-      "title": "EeveeSpotify 6.6.8-LG-2026-09-23-00-00-00",
-      "caption": "Upstream release available. App 9.1.84 (build 918402223). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
-      "date": "2026-09-23T18:23:50Z",
-      "url": "https://github.com/estrogencat/EeveeIPA/releases/tag/6.6.8-LG-2026-09-23-00-00-00",
-      "appID": "com.spotify.client",
+      "identifier": "ytkace-release-403168068-asset-610463068",
+      "title": "YTKACE v1.1.2",
+      "caption": "Upstream release available. App 21.40.5 (build 21.40.5). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
+      "date": "2026-10-04T19:13:13Z",
+      "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.2",
+      "appID": "com.google.ios.youtube",
       "notify": true
     }
   ]
