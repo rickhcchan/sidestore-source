@@ -45,14 +45,14 @@
       "tintColor": "FF0033",
       "versions": [
         {
-          "version": "21.40.5",
-          "buildVersion": "21.40.5",
+          "version": "21.41.5",
+          "buildVersion": "21.41.5",
           "minOSVersion": "17.0",
-          "date": "2026-10-04T19:13:13Z",
-          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.2/YTKACE_1.1.2_YouTube_21.40.5.ipa",
-          "size": 137298992,
-          "sha256": "7f68e0f56acd5d18155c210be1c7d7dfd9d65529ea47466c7eae9b40d5ae688e",
-          "localizedDescription": "YTKACE v1.1.2\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.40.5\n• Redesigned the download tab to look more like YouTube, with an All tab and your active downloads shown at the top\n• Smaller download popup that you can swipe away, and failed downloads stay so you can retry them\n• Playlist downloads now get the whole playlist, including private playlists and Liked videos\n• Liquid Glass tab bar is see-through while scrolling Shorts\n• Added Frosted Tab Bar option (Default, On, Off)\n• Added Normal Home Layout for the Home redesign some accounts get\n• Added Remove Horizontal Shelves\n• Added Hold to Copy Text for community posts and comments\n• Added Play Shorts Once\n• Added Two-Finger Tap to Pause\n• Added Extra Dim\n• Added Share at Current Time\n• Added Lock Screen Skip\n• Added Remove Suggestion Pill for Shorts\n• SponsorBlock skip popup now fades in and out\n\nFixed:\n• Shorts download button, Fullscreen and pinch to fullscreen on the new Shorts UI\n• Captions On picking the wrong language\n• App opening in Shorts when a different start tab is set\n• White or black bar behind the Liquid Glass tab bar\n• Share sheet position on iPad\n\nYouTube 21.40.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.2_YouTube_21.40.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.2_YouTube_iOS16_21.33.6.ipa` for iOS 16\n\n\nUpstream release: https://github.com/itzzace/ytkace/releases/tag/v1.1.2"
+          "date": "2026-10-11T21:19:19Z",
+          "downloadURL": "https://github.com/itzzace/ytkace/releases/download/v1.1.3/YTKACE_1.1.3_YouTube_21.41.5.ipa",
+          "size": 137158764,
+          "sha256": "78656bc7d405dd5d95511e043bb79614da9561eef8364ed95949b6a7b92e6a58",
+          "localizedDescription": "YTKACE v1.1.3\n\nby @itzzace0\n\nWhat's new:\n• Updated to YouTube 21.41.5\n• Added Hide AI Channels, which hides videos from channels on the AiSList blocklist in your feed and search, with an option for the warnlist too\n• Swipe the SponsorBlock popup away to dismiss it\n\nFixed:\n• Shorts download button sometimes missing on the new Shorts UI\n• Auto-Skip and Play Shorts Once not working on the new Shorts UI\n• Pinch to fullscreen in Shorts freezing or starting the next Short\n• Loop button not looping when Local Queue is on\n• SponsorBlock popup not fading in\n• Chapter pill in the player sometimes not getting Liquid Glass\n\nYouTube 21.41.5 requires iOS 17, so there are two IPAs:\n• `YTKACE_1.1.3_YouTube_21.41.5.ipa` for iOS 17 and newer\n• `YTKACE_1.1.3_YouTube_iOS16_21.33.6.ipa` for iOS 16\n\n\nUpstream release: https://github.com/itzzace/ytkace/releases/tag/v1.1.3"
         }
       ]
     },
@@ -107,35 +107,35 @@
       "tintColor": "1DB954",
       "versions": [
         {
-          "version": "9.1.78",
-          "buildVersion": "917802214",
+          "version": "9.1.90",
+          "buildVersion": "919002269",
           "minOSVersion": "15.0",
-          "date": "2026-10-05T05:10:28Z",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.0.0-2026-10-05-06-08-00/EeveeSpotify-9.1.86-ESR-7.0.0-LG.ipa",
-          "size": 133618708,
-          "sha256": "1972ddbfaddc2adda53c735b66b889e327188f82bef9d9af7558c8da4a62af67",
-          "localizedDescription": "EeveeSpotify 7.0.0-2026-10-05-06-08-00\n\nnot finished 7.0.0, very early in dev \r\nspoti.pw 0.23.0 beta (9.1.78, listed at 9.1.86 so repo wont put it under the older releases)\n\nUpstream release: https://github.com/estrogencat/EeveeIPA/releases/tag/7.0.0-2026-10-05-06-08-00"
+          "date": "2026-10-11T14:58:19Z",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.0.0-LG-2026-10-11-15-39-00/EeveeSpotify-9.1.90-ESR-7.0.0-LG.ipa",
+          "size": 137645227,
+          "sha256": "eb38481581839e3d22e1dd5900b837f4456ac2146ccaa1268449424d52beb38d",
+          "localizedDescription": "EeveeSpotify 7.0.0-LG-2026-10-11-15-39-00\n\nspoti.pw 0.51.0 beta w eevee\n\nUpstream release: https://github.com/estrogencat/EeveeIPA/releases/tag/7.0.0-LG-2026-10-11-15-39-00"
         }
       ]
     }
   ],
   "news": [
     {
-      "identifier": "eeveespotify-release-403382484-asset-611564341",
-      "title": "EeveeSpotify 7.0.0-2026-10-05-06-08-00",
-      "caption": "Upstream release available. App 9.1.78 (build 917802214). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
-      "date": "2026-10-05T05:10:28Z",
-      "url": "https://github.com/estrogencat/EeveeIPA/releases/tag/7.0.0-2026-10-05-06-08-00",
-      "appID": "com.spotify.client",
+      "identifier": "ytkace-release-409928546-asset-631838531",
+      "title": "YTKACE v1.1.3",
+      "caption": "Upstream release available. App 21.41.5 (build 21.41.5). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
+      "date": "2026-10-11T21:19:19Z",
+      "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.3",
+      "appID": "com.google.ios.youtube",
       "notify": true
     },
     {
-      "identifier": "ytkace-release-403168068-asset-610463068",
-      "title": "YTKACE v1.1.2",
-      "caption": "Upstream release available. App 21.40.5 (build 21.40.5). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
-      "date": "2026-10-04T19:13:13Z",
-      "url": "https://github.com/itzzace/ytkace/releases/tag/v1.1.2",
-      "appID": "com.google.ios.youtube",
+      "identifier": "eeveespotify-release-409733427-asset-631018148",
+      "title": "EeveeSpotify 7.0.0-LG-2026-10-11-15-39-00",
+      "caption": "Upstream release available. App 9.1.90 (build 919002269). If already installed with this version, a tweak-only update may require manual installation; see release notes.",
+      "date": "2026-10-11T14:58:19Z",
+      "url": "https://github.com/estrogencat/EeveeIPA/releases/tag/7.0.0-LG-2026-10-11-15-39-00",
+      "appID": "com.spotify.client",
       "notify": true
     }
   ]
